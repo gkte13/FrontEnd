@@ -2,54 +2,85 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Petshop</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/dda7eb7b92.js" crossorigin="anonymous"></script>
+  
+  <title>Petshop</title>
 </head>
 
 <body>
+  <header>
+    <section class="derecha">
+      <p>Grandes ofertas en comederos</p>
+      <span>
+        <select name="Idioma" id="idioma">
+          <option value="esp">Español</option>
+          <option value="ing">Inglés</option>
+        </select>
+        <select name="Moneda" id="moneda">
+          <option value="ARG">$ARG</option>
+          <option value="UYU">$UYU</option>
+        </select>
+      </span>
 
-    <header>
-        <P>Grandes ofertas en comederos</P>
-        <ul>
-            <li><a href="">Español</a></li>
-            <li><a href="">ARG$</a></li>
-        </ul>
+    </section>
 
-    </header>
-<main> <!-- Etiqueta semantica-->
-        <nav>
-            <h1>Front<span style="color: orange">Cat&Dog</span></h1>
-            <ul>
-                <li><a href="">Categorias</a></li>
-                <li><a href="">Pets</a></li>
-                <li><a href="">Nosotros</a></li>
-                <li><a href="">Contactanos</a></li>
-            </ul>
-        </nav>
-        <section>
-            <img src="img/imgPrincipal.png" alt="Portada">
-            <h2 style="background-color:white;">¡Es un placer tenerte aquí!</h2>
-            <p>¡Comederos en descuento!</p>
-            <button>COMEDEROS</button>
-        </section>
-        <section>
-            <img src="img/pata.png" alt="">
-            <h2>Productos Destacados</h2>
-            <p>Comederos - Accesorios - Comida</p>
-            <img src="img/churrasquito.png" alt="" width="300">
-            <p>Juguete Churrasquito</p>
-            <p>$150</p>
-            <img src="img/comederoPerro.png" alt="" width="300">
-            <p>Comedero para perro</p>
-            <p>$250</p>
-            <img src="img/juegueteHuesito.png" alt="" width="300">
-            <p>Juguete Huesito</p>
-            <p>$650</p>
-        </section>
-    </main>
+  </header>
+  <main>
+    <!-- Etiqueta semantica-->
+    <nav>
+      <img src="img/Logo.png" alt="logo">
+      <ul>
+        <li><a href=""><i class="fa-light fa-paw"> Categorias</i></a></li>
+        <li><a href=""><i class="fa-light fa-paw"> Pets</i></a></li>
+        <li><a href=""><i class="fa-light fa-paw"> Nosotros</i></a></li>
+        <li><a href=""><i class="fa-light fa-paw"> Contactanos</i></a></li>
+      </ul>
+    </nav>
 
+    <section class="bannerimage">
+      <h1>¡Es un placer tenerte aquí!</h1>
+
+
+      <h4>¡Comederos en descuento!</h4>
+      <button>COMEDEROS</button>
+    </section>
+
+    <section>
+      <img src="img/pata.png" alt="" />
+      <span><i class="fa-light fa-paw"></i><br></span><h2> Productos Destacados</h2>
+      <p>Comederos - Accesorios - Comida</p>
+      <img src="img/churrasquito.png" alt="" width="300" />
+      <p>Juguete Churrasquito</p>
+      <p>$150</p>
+      <img src="img/comedero.png" alt="" width="300" />
+      <p>Comedero para perro</p>
+      <p>$250</p>
+      <img src="img/Huesito.png" alt="" width="300" />
+      <p>Juguete Huesito</p>
+      <p>$650</p>
+    </section>
+
+    <section class="info">
+      <a href=""></a><a href=""><i class="i-info fa-solid fa-location-dot"></i><br> Localidad</a><br>
+      <p>Calle - provincia</p><br>
+
+      <a href=""><i class="i-info fa-solid fa-phone"></i> <br>Teléfono</a><br>
+      <p>Número de teléfono</p><br>
+
+      <a href=""><i class="i-info fa-solid fa-envelope"></i><br>Correo Electrónico</a><br>
+      <p>Dirección de correo</p><br>
+
+      <img src="img/Logo (1).png" alt="logo">
+    </section>
+  </main>
+
+  <footer>
+    <p>Todos los derechos reservados Front End</p>
+  </footer>
 </body>
 
 </html>
